@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "nrf_drv_clock.h": "c",
+        "menolfo.h": "c",
+        "max9850.h": "c",
+        "nrf_drv_twi.h": "c",
+        "ble_advdata.h": "c",
+        "nordic_hal.h": "c",
+        "string_view": "cpp",
+        "app_pwm.h": "c",
+        "sdk_common.h": "c",
+        "nordic_common.h": "c",
+        "sdk_config.h": "c",
+        "nrf_gpio.h": "c",
+        "menolfo_pwm.h": "c",
+        "optional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    }
+}

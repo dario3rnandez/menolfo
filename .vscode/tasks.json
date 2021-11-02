@@ -1,0 +1,38 @@
+// Makefile
+// ${workspaceRoot} the path of the folder opened in VS Code
+// ${file} the current opened file
+// ${fileBasename} the current opened file's basename
+// ${fileDirname} the current opened file's dirname
+// ${fileExtname} the current opened file's extension
+// ${cwd} the task runner's current working directory on startup
+{
+    "command": "bash",
+    //"isShellCommand": true,
+    //"showOutput": "always",
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+	"args": [
+        
+        "-c"
+    ],
+    "tasks": [
+        {
+            "taskName": "all",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": [
+                "make all -j"
+            ],
+        },
+        {
+            "taskName": "clean",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": [
+                "make clean"
+            ],
+        },
+        
+    ]
+}
